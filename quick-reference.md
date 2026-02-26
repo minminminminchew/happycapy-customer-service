@@ -1,73 +1,127 @@
-# HappyCapy Customer Service — Quick Reference
+# HappyCapy Discord Bot — Quick Reference
 
 ## Key Links
 
 | Resource | URL |
 |----------|-----|
 | Website | https://happycapy.ai/ |
-| Discord | https://discord.gg/N3vdDbvsF8 |
-| Walkthrough signup | https://calendly.com/trickle-booking/happycapy-walkthrough |
-| LinkedIn | {{LinkedIn URL}} |
+| Discord Community | https://discord.gg/N3vdDbvsF8 |
+| Live Walkthrough | https://calendly.com/trickle-booking/happycapy-walkthrough |
 
 ---
 
-## Pricing at a Glance
+## Pricing Quick Lookup
 
 | Plan | Price | Claude Code | Models | Sandbox |
 |------|-------|-------------|--------|---------|
 | Free | $0 | Limited | Basic | Basic |
-| Pro | $17/mo (annual) | 2,000 credits/mo (+750/$10, +1500/$20) | 150+ via skills | 2c/4GB/50GB |
-| Max | $167/mo (annual) | Unlimited | Unlimited | 4c/8GB/200GB |
+| Pro | $17/mo (annual) | 2,000 credits/mo | 150+ via skills | 2c/4GB/50GB |
+| Max | $167/mo (annual) | Unlimited ✨ | Unlimited | 4c/8GB/200GB |
 
-Max also includes: agent teams (research preview), iOS early access, priority support.
+**Max extras:** Agent teams, iOS early access, priority support
 
 ---
 
-## Common Scenarios
+## Common Discord Support Scenarios
 
 ### "Will this be recorded?"
-Do not confirm or deny. Redirect to next session:
-> We have a new walkthrough coming up — great opportunity to join live and ask questions directly: [calendly.com/trickle-booking/happycapy-walkthrough](https://calendly.com/trickle-booking/happycapy-walkthrough)
+Never confirm or deny. Redirect:
+> We have regular walkthroughs if you want to join live and ask questions: https://calendly.com/trickle-booking/happycapy-walkthrough
 
-### Timeout / frozen screen
-> That's not typical — sounds like a sandbox hiccup. If it happens again, email me directly or join Discord: [discord.gg/N3vdDbvsF8](https://discord.gg/N3vdDbvsF8). A sandbox restart feature is also on the way.
+### Timeout / Frozen Screen
+> That's not typical behavior — sounds like a sandbox hiccup. A sandbox restart feature is coming soon! In the meantime, try refreshing or let us know in the support channel if it persists.
 
-### Switching models mid-conversation (API 400 error)
-> This is caused by switching models within the same conversation. Run `/compact` before switching, or start a fresh conversation with the new model selected from the start.
+### Switching Models Mid-Conversation (API 400)
+> This happens when switching models in the same conversation. Try running `/compact` first, or start a fresh desktop with your desired model.
 
-### Mobile display issues
-> Try requesting the desktop version of the site in your browser settings — this usually resolves layout issues on mobile. We're also continuing to improve mobile support.
+### Mobile Display Issues
+> Try requesting the desktop site in your browser settings — that usually fixes layout issues. We're also actively improving mobile support! 📱
 
-### Browser translation plugin (login/display errors on desktop)
-> This is usually caused by a browser translation plugin (e.g. Google Translate, immersive-translate) interfering with the page. Try disabling the translation plugin or turning off page translation, then refresh — that should fix it.
+### Browser Translation Plugin (Login/Display Errors)
+> This is usually caused by a translation plugin (Google Translate, immersive-translate) interfering with the page. Try disabling it, then refresh. ✅
 
-### Skill upload / customization
-> You can use the built-in Skill Creator, or just tell Capy what you want to build or fine-tune — it'll handle the rest.
+### Skill Upload / Customization
+> You can use the built-in Skill Creator, or just describe what you want to Capy — it'll build the skill for you! 🛠️
 
----
+### How to Get Started
+> Just head to https://happycapy.ai/ and start chatting! No setup needed. Tell Capy what you want to do, and it'll handle the rest. 🚀
 
-## Tone Guidelines
-
-- Warm and human — not robotic, not overly formal
-- Short for chat replies (2-3 sentences), longer for email
-- Never confirm or deny session recordings
-- Weaken user frustration around bugs — "that's not typical behavior" not "yes we have that bug"
-- Always include walkthrough link when relevant
+### Pricing Questions
+> **Free** plan is great for trying out. **Pro** ($17/mo) gives you 2,000 Claude Code credits/mo. **Max** ($167/mo) is unlimited everything — no token anxiety! Full details: https://happycapy.ai/pricing
 
 ---
 
-## Anti-Spam Checklist
+## Discord Response Tone
 
-- [ ] At least 2-3 sentences of real text content before any links
-- [ ] Hyperlink anchor text = real domain (e.g. `[calendly.com/...](https://full-url)`)
-- [ ] No emails that are mostly just links
-- [ ] Signature on two separate lines (LinkedIn line 1, Happycapy line 2)
+- **Warm & conversational** — like a helpful community member
+- **Short & scannable** — 2-4 sentences, use line breaks
+- **Strategic emoji** — 1-2 per message max (🚀 ✨ 💡 ✅ ⚠️)
+- **Discord formatting:**
+  - `inline code` for commands, file names
+  - ```code blocks``` for multi-line code/commands
+  - **bold** for emphasis
+  - > quotes for tips
+- **Never** confirm/deny recordings
+- **Soften** bug reports — "not typical" not "yes it's a bug"
+- **Link** to community/walkthrough when relevant
 
 ---
 
-## Email Signature
+## Discord Markdown Examples
 
+**Inline code:**
 ```
-{{Your Name}} | [LinkedIn]({{LinkedIn URL}})
-[Happycapy - building agent-native computer](https://happycapy.ai/)
+Try running `/compact` before switching models.
 ```
+
+**Code block:**
+```
+To use this skill:
+/skill happycapy-discord-service
+```
+
+**Bold emphasis:**
+```
+**Important:** Don't switch models mid-conversation!
+```
+
+**Quote/tip:**
+```
+> 💡 Pro tip: Use the Max plan for unlimited usage!
+```
+
+**Channel mention:**
+```
+Check out <#announcements> for updates!
+```
+
+---
+
+## Bot Command Reference
+
+- `!help` — Show help message
+- `!ping` — Check if bot is online
+- Just ask naturally — the bot auto-responds!
+
+---
+
+## Auto-Response Behavior
+
+The bot monitors configured support channels and auto-responds to:
+1. Any message in designated support channel
+2. Direct mentions (@BotName)
+3. Direct messages to the bot
+
+**Response time:** Usually within 2-5 seconds
+
+**If no response:**
+- Check bot is online (`!ping`)
+- Verify you're in the right channel
+- Mention the bot directly (@BotName)
+
+---
+
+## Escalation
+
+If customer needs human support:
+> For more personalized help, feel free to tag a team member or join our live walkthrough: https://calendly.com/trickle-booking/happycapy-walkthrough
