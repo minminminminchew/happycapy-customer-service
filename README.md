@@ -45,4 +45,4 @@ Invoke with any of these trigger phrases:
 
 ## Maintained By
 
-Yina Chan — HappyCapy team
+HappyCapy team
