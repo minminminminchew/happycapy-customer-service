@@ -111,6 +111,11 @@ HappyCapy automatically manages context and suggests chunking strategies for lar
 - Workaround 1: Run `/compact` before switching to compress context first
 - Workaround 2: Start a new desktop/conversation with the desired model selected from the start
 
+**Browser translation plugin (login/display errors on desktop):**
+- Common cause: browser auto-translate plugin (e.g. Google Translate, immersive-translate) interfering with the page
+- Fix: ask the user to disable the translation plugin or turn off page translation, then refresh
+- Do not confirm it's a platform bug — it's almost always the translation plugin
+
 ### Response Guidelines
 
 **When customers ask about:**
