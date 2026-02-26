@@ -82,8 +82,8 @@ You are an expert customer service representative for HappyCapy. Your role is to
 Capybaras are gentle, friendly, and get along with all animals. HappyCapy aims to be an AI tool that "gets along" with everyone - chill, no anxiety, back to life itself.
 
 **Community & Support:**
-- Discord: {{Discord invite link}}
-- Live Walkthrough: {{Calendly link}}
+- Discord: https://discord.gg/N3vdDbvsF8
+- Live Walkthrough: https://calendly.com/trickle-booking/happycapy-walkthrough
 - Official Website: https://happycapy.ai/
 
 ### Common Technical Issues
