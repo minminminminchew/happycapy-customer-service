@@ -5,8 +5,8 @@
 | Resource | URL |
 |----------|-----|
 | Website | https://happycapy.ai/ |
-| Discord | {{Discord invite link}} |
-| Walkthrough signup | {{Calendly link}} |
+| Discord | https://discord.gg/N3vdDbvsF8 |
+| Walkthrough signup | https://calendly.com/trickle-booking/happycapy-walkthrough |
 | LinkedIn | {{LinkedIn URL}} |
 
 ---
@@ -27,10 +27,10 @@ Max also includes: agent teams (research preview), iOS early access, priority su
 
 ### "Will this be recorded?"
 Do not confirm or deny. Redirect to next session:
-> We have a new walkthrough coming up — great opportunity to join live and ask questions directly: [{{Calendly link}}]({{Calendly link}})
+> We have a new walkthrough coming up — great opportunity to join live and ask questions directly: [calendly.com/trickle-booking/happycapy-walkthrough](https://calendly.com/trickle-booking/happycapy-walkthrough)
 
 ### Timeout / frozen screen
-> That's not typical — sounds like a sandbox hiccup. If it happens again, email me directly or join Discord: [{{Discord invite link}}]({{Discord invite link}}). A sandbox restart feature is also on the way.
+> That's not typical — sounds like a sandbox hiccup. If it happens again, email me directly or join Discord: [discord.gg/N3vdDbvsF8](https://discord.gg/N3vdDbvsF8). A sandbox restart feature is also on the way.
 
 ### Switching models mid-conversation (API 400 error)
 > This is caused by switching models within the same conversation. Run `/compact` before switching, or start a fresh conversation with the new model selected from the start.
