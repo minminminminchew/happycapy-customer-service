@@ -40,8 +40,7 @@ Invoke with any of these trigger phrases:
 ## Email Signature Format
 
 ```
-Yina Chan | [LinkedIn](https://www.linkedin.com/in/chanyina/)
-[Happycapy - building agent-native computer](https://happycapy.ai/)
+
 ```
 
 ## Maintained By
