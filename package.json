@@ -2,10 +2,11 @@
   "name": "happycapy-discord-service",
   "version": "1.0.0",
   "description": "Automated Discord customer service bot for HappyCapy, powered by Claude Code",
-  "main": "discord-bot.js",
+  "main": "discord-bot-auto.js",
   "scripts": {
-    "start": "node discord-bot.js",
-    "dev": "nodemon discord-bot.js",
+    "start": "node discord-bot-auto.js",
+    "dev": "nodemon discord-bot-auto.js",
+    "start:basic": "node discord-bot.js",
     "install-skill": "mkdir -p ~/.claude/skills/happycapy-discord-service && cp SKILL.md quick-reference.md ~/.claude/skills/happycapy-discord-service/"
   },
   "keywords": [
@@ -19,6 +20,7 @@
   "author": "HappyCapy Team",
   "license": "MIT",
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
     "discord.js": "^14.14.1",
     "dotenv": "^16.4.1"
   },
