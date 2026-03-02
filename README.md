@@ -20,6 +20,8 @@ This bot provides intelligent, context-aware responses to customer inquiries in 
 
 ## 🚀 Quick Start
 
+**New to Discord bots? Start here:** [📖 Discord 接入完整指南](./DISCORD_SETUP.md)
+
 ### 1. Install Dependencies
 ```bash
 npm install
@@ -28,7 +30,7 @@ npm install
 ### 2. Configure Environment
 ```bash
 cp .env.example .env
-# Edit .env and add your DISCORD_BOT_TOKEN
+# Edit .env and add your DISCORD_BOT_TOKEN and ANTHROPIC_API_KEY
 ```
 
 ### 3. Install Claude Code Skill
@@ -41,7 +43,10 @@ npm run install-skill
 npm start
 ```
 
-See [SETUP.md](./SETUP.md) for detailed setup instructions.
+**Need help?** See:
+- [DISCORD_SETUP.md](./DISCORD_SETUP.md) - Complete Discord integration guide
+- [QUICKSTART.md](./QUICKSTART.md) - 5-minute automated setup
+- [SETUP.md](./SETUP.md) - Detailed technical setup
 
 ---
 
